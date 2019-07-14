@@ -33,7 +33,7 @@ Alphalang.prototype.isoCodes = function() {
     return Object.keys(this.languages);
 }
 
-Alphalang.prorotype._init = function () {
+Alphalang.prototype._init = function () {
     this.languages = {
         "en": {
             "english_name": "english",
